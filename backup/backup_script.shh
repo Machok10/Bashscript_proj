@@ -1,0 +1,11 @@
+#!/bin/bash
+
+SOURCE_DIR="/home/ubuntu/"
+BACKUP_DIR="/home/ubuntu/backup"
+
+mkdir -p $BACKUP_DIR
+mkdir -p $SOURCE_DIR
+
+cp -r $SOURCE_DIR/* $BACKUP_DIR
+
+echo "Backup completed successfully"
